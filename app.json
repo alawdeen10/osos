@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "osos",
-    "slug": "osos",
+    "slug": "osos-tq-7dl1ufosjgnpe5hmnc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alawdeen10.osos"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2da175b6-956c-4b64-ad43-8c76ac69ed40"
+      }
+    },
+    "owner": "alawdeen10"
   }
 }
